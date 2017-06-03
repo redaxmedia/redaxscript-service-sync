@@ -2,7 +2,7 @@
 	"name": "redaxmedia/redaxscript-service-sync",
 	"description": "Yet another cronjob for Redaxscript's website",
 	"version": "3.1.0",
-	"homepage": "https://redaxscript.com",
+	"homepage": "https://service.redaxscript.com",
 	"license": "GPL-3.0",
 	"repositories":
 	[
