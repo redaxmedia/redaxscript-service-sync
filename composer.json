@@ -1,5 +1,5 @@
 {
-	"name": "redaxmedia/redaxscript-service-sync",
+	"name": "redaxscript/redaxscript-service-sync",
 	"description": "Yet another cronjob for Redaxscript's website",
 	"version": "3.2.3",
 	"homepage": "https://service.redaxscript.com",
@@ -8,7 +8,7 @@
 	[
 		{
 			"type": "git",
-			"url": "https://github.com/redaxmedia/redaxscript-service.git"
+			"url": "https://github.com/redaxscript/redaxscript-service.git"
 		}
 	],
 	"require":
@@ -17,6 +17,6 @@
 	},
 	"require-dev":
 	{
-		"redaxmedia/redaxscript-service": "dev-master"
+		"redaxscript/redaxscript-service": "dev-master"
 	}
 }

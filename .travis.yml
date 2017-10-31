@@ -15,10 +15,10 @@ before_script:
 - mkdir build
 
 script:
-- cp vendor/redaxmedia/redaxscript-service/images build/images --recursive
-- cp vendor/redaxmedia/redaxscript-service/news build/news --recursive
-- cp vendor/redaxmedia/redaxscript-service/version build/version --recursive
-- cp vendor/redaxmedia/redaxscript-service/xml build/xml --recursive
+- cp vendor/redaxscript/redaxscript-service/images build/images --recursive
+- cp vendor/redaxscript/redaxscript-service/news build/news --recursive
+- cp vendor/redaxscript/redaxscript-service/version build/version --recursive
+- cp vendor/redaxscript/redaxscript-service/xml build/xml --recursive
 
 after_success:
 - lftp $FTP_URL -e "glob -d mirror build . --reverse --delete-first --parallel=10 && exit"
