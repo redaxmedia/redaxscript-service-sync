@@ -1,0 +1,20 @@
+{
+	"name": "redaxscript-service-sync",
+	"description": "Yet another cronjob for Redaxscript's website",
+	"version": "4.0.0",
+	"homepage": "https://redaxscript.com",
+	"license": "GPL-3.0",
+	"author":
+	{
+		"name": "Henry Ruhs",
+		"url": "https://redaxmedia.com"
+	},
+	"devDependencies":
+	{
+		"grunt": "1.0.2",
+		"grunt-contrib-copy": "1.0.0",
+		"grunt-ftpress": "1.0.1",
+		"grunt-shell": "2.1.0",
+		"load-grunt-tasks": "4.0.0"
+	}
+}

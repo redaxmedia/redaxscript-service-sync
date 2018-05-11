@@ -10,18 +10,15 @@ install:
 - sudo apt-get install lftp
 - composer self-update
 - composer install
-
-before_script:
-- mkdir build
+- nvm install 9
+- npm install --global grunt-cli
+- npm install
 
 script:
-- cp vendor/redaxscript/redaxscript-service/images build/images --recursive
-- cp vendor/redaxscript/redaxscript-service/news build/news --recursive
-- cp vendor/redaxscript/redaxscript-service/version build/version --recursive
-- cp vendor/redaxscript/redaxscript-service/xml build/xml --recursive
+- grunt
 
 after_success:
-- lftp $FTP_URL -e "glob -d mirror build . --reverse --delete-first --parallel=10 && exit"
+- grunt deploy
 
 notifications:
  email:
