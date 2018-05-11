@@ -14,8 +14,7 @@ module.exports = grunt =>
 			options:
 			{
 				url: process.env.FTP_URL,
-				command: 'mirror {SOURCE} {TARGET} --reverse --delete-first --parallel=10 --use-pget-n=10; exit',
-				debug: true
+				command: 'mirror {SOURCE} {TARGET} --reverse --delete-first --parallel=10 --use-pget-n=10; exit'
 			}
 		}
 	};
