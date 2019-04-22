@@ -3,7 +3,7 @@
 	"description": "Yet another cronjob for Redaxscript's website",
 	"version": "4.0.0",
 	"homepage": "https://service.redaxscript.com",
-	"license": "GPL-3.0",
+	"license": "MIT",
 	"repositories":
 	[
 		{
@@ -13,7 +13,7 @@
 	],
 	"require":
 	{
-		"php": "^7.1"
+		"php": "^7.2"
 	},
 	"require-dev":
 	{
