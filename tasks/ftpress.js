@@ -1,7 +1,5 @@
-module.exports = grunt =>
+module.exports = () =>
 {
-	'use strict';
-
 	const config =
 	{
 		deploy:
