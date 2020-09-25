@@ -7,11 +7,9 @@ module.exports = () =>
 			src:
 			[
 				'images/**',
-				'licenses/**',
-				'modules/**',
-				'news/**',
 				'version/**',
-				'xml/**'
+				'.htaccess',
+				'pad.xml'
 			],
 			dest: 'build',
 			cwd: 'vendor/redaxscript/redaxscript-service/',
