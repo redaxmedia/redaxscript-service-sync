@@ -7,6 +7,7 @@ module.exports = () =>
 			src:
 			[
 				'images/**',
+				'licenses/**',
 				'modules/**',
 				'news/**',
 				'version/**',
