@@ -13,7 +13,7 @@
 	{
 		"grunt": "1.3.0",
 		"grunt-contrib-copy": "1.0.0",
-		"grunt-ftpress": "1.5.0",
+		"grunt-ftpress": "2.0.0-beta.3",
 		"grunt-shell": "3.0.1",
 		"load-grunt-tasks": "5.1.0"
 	}
